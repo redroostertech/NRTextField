@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		BA694B8321A65D5E008EF273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA694B8221A65D5E008EF273 /* AppDelegate.swift */; };
-		BA694B8521A65D5E008EF273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA694B8421A65D5E008EF273 /* ViewController.swift */; };
+		BA694B8521A65D5E008EF273 /* NRTextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA694B8421A65D5E008EF273 /* NRTextFieldExample.swift */; };
 		BA694B8821A65D5E008EF273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA694B8621A65D5E008EF273 /* Main.storyboard */; };
 		BA694B8A21A65D5F008EF273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA694B8921A65D5F008EF273 /* Assets.xcassets */; };
 		BA694B8D21A65D5F008EF273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA694B8B21A65D5F008EF273 /* LaunchScreen.storyboard */; };
+		BA694B9521A65D82008EF273 /* NRTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA694B9421A65D82008EF273 /* NRTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA694B7F21A65D5E008EF273 /* NRButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA694B8221A65D5E008EF273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA694B8421A65D5E008EF273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA694B8421A65D5E008EF273 /* NRTextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRTextFieldExample.swift; sourceTree = "<group>"; };
 		BA694B8721A65D5E008EF273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA694B8921A65D5F008EF273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA694B8C21A65D5F008EF273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA694B8E21A65D5F008EF273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA694B9421A65D82008EF273 /* NRTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				BA694B8221A65D5E008EF273 /* AppDelegate.swift */,
-				BA694B8421A65D5E008EF273 /* ViewController.swift */,
+				BA694B8421A65D5E008EF273 /* NRTextFieldExample.swift */,
+				BA694B9421A65D82008EF273 /* NRTextField.swift */,
 				BA694B8621A65D5E008EF273 /* Main.storyboard */,
 				BA694B8921A65D5F008EF273 /* Assets.xcassets */,
 				BA694B8B21A65D5F008EF273 /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA694B8521A65D5E008EF273 /* ViewController.swift in Sources */,
+				BA694B9521A65D82008EF273 /* NRTextField.swift in Sources */,
+				BA694B8521A65D5E008EF273 /* NRTextFieldExample.swift in Sources */,
 				BA694B8321A65D5E008EF273 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
